@@ -39,7 +39,23 @@ for (let i=0; i<data.length; ++i) {
 
 }
 
+const cart [ ]
 
+function addItem (name, price) {
+    const item = { name: name, price: price, qty: 1 }
+    cart.push(item)
+
+
+}
+
+function showItems () {
+    console.log(`You have ${cart.length} items in your cart`    )
+}
+
+addItem(happy, 14.99)
+addItem(sad, 13.99)
+
+showItems()
 
 
 
